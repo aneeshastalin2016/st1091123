@@ -34,3 +34,6 @@ AddUser "", "password", "Don", "Smithy", "ABC", "416-456-0000", "donsmith@sample
 
 ''Invalid input - missing password
 AddUser "rnmith", "", "Don", "Smithy", "ABC", "416-456-0000", "donsmith@sample.com"
+
+''Invalid input - user already exists
+AddUser "dsmith", "password", "Peter", "Smith", "ABC", "416-456-0000", "jsmith@sample.com"
